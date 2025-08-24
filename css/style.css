@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: #f5f3f3;
 }
 
 body{
@@ -129,4 +128,35 @@ nav{
         font-size: 28px;
     }
 
+}
+
+/* FOOTER */
+
+footer{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#footer_content{
+    border-radius: 10px;
+    background-color: #5c6b73;
+    color: white;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 2rem 2.5rem;
+}
+
+#footer_contacts p{
+    color: white;
+    margin-top: 0;;
+}
+
+#footer_social_media{
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+}
+
+.fa-brands{
+    color: white;
 }
