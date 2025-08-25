@@ -37,6 +37,7 @@ body{
     position: relative;
     border-radius: 10px;
     background-color: #5c6b73;
+    border: 1px solid #253237;
 }
 
 #profile-pic {
@@ -46,7 +47,7 @@ body{
     margin-left: 20px;
     border-radius: 50%;
     
-    border: 4px solid #f5f3f3
+    border: 4px solid #f5f3f3;
 }
 
 h1{
@@ -151,6 +152,7 @@ footer{
 #footer_content{
     border-radius: 10px;
     background-color: #5c6b73;
+    border: 1px solid #253237;
     color: white;
     display: grid;
     gap: 3rem;
@@ -171,6 +173,21 @@ footer{
 
 .fa-brands{
     color: white;
+}
+
+#github .fa-brands:hover{
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    color: #171515;
+}
+
+#linkedin .fa-brands:hover{
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    color: #0e76a8;
+}
+
+#whatsapp .fa-brands:hover{
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    color: #25D366;
 }
 
 .footer_list{
@@ -228,11 +245,13 @@ footer{
 
 .fa-solid{
     color: white;
+    transition: all .35s;
 }
 
 #footer_copyright p{
     text-align: center;
     margin-top: 0.5rem;
+    font-size: 0.6rem;
 }
 
 @media screen and (max-width: 768px) {
